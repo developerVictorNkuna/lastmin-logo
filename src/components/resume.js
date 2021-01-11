@@ -44,7 +44,7 @@ class Resume extends Component {
             <h5>Email</h5>
             <p>victor.nkuna@yahoo.com</p>
             <h5>Web</h5>
-            <p><a href='https://loving-ramanujan-c0c2cb.netlify.app/'>mysite</a></p>
+            <p><a href='https://victor-nkuna-online-portfolio.netlify.app/' target="_blannk">mysite</a></p>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
           </Cell>
           <Cell className="resume-right-col" col={8}>

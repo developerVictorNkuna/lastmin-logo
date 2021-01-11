@@ -1,5 +1,19 @@
 /*this the style i added for the testimonial */
+.godwdin{
+  padding-bottom: 10px;
+  background-color:dodgerblue;
+}
+/*styling link not chnage when visited */
+a {
+  text-decoration: none;
 
+}
+a:link,a:visited {
+  color:#833ab4
+}
+a:hover{
+  color:cadetblue
+}
 .container {
   border: 2px solid #ccc;
   background-color: #eee;
@@ -7,7 +21,8 @@
   padding: 16px;
   margin: 16px 0
 }
-
+Victor possesses  the ultimate "can  do" attitude while taking on all tasks with a positive energy ,
+       and a smile.His upbeat personality adn engaging personal style enable him to interact effectively with diverse audiences.
 .container::after {
   content: "";
   clear: both;

@@ -52,7 +52,7 @@ class Projects extends Component {
 
             <CardActions border>
               <a href="https://github.com/developerVictorNkuna"alt="_blank"><Button colored>GitHub</Button></a>
-              <Button colored>Ticket Inventory</Button>
+              <Button colored>Inventory System</Button>
               <a  href="https://github.com/developerVictorNkuna/simpleaudi-app-with-pygame" target="_blank"><Button colored>MP3</Button></a>
               <a href=""><Button colored>Inventory System</Button><img src={mp3} alt="mp3" target="_blank" style={{height:'250px'}} /></a>
 
