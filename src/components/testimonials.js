@@ -67,14 +67,15 @@ class Testimonials extends Component {
               < a href="https://lifechoicesacademy.com/about-salesian-life-choices/" target="_blank"></a>
               
               
-             <h1 className="godwin"> “Victor is a pleasure to work with and has a potential to contribute positively to the organisation through his communication prowess.
-               Godwin Head of Curriculum and Learning”...Mr Godwin Life Choice Lecture</h1>
+             <h1 className="godwin"> "Victor is one of the dedicated hardworking and innovative individual
+             ,He is the type of person you can count on to keep a cool head in  a stressfull situation and his positive attitude is contagious.
+              He has wide array of skills which make him suitable for different varying types of projects"</h1>
 
             </CardText>
 
             <CardActions border>
               
-              <a><Button colored> Lecture </Button></a>
+              <a><Button colored> ClassMate</Button></a>
             </CardActions>
             
             <CardMenu style={{color: '#fff'}}>
@@ -100,11 +101,11 @@ class Testimonials extends Component {
     return(
       <div>
         <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
-        <Tab>Godwin -Lecture</Tab>
+        <Tab>Godwin Dzvapatsva  -Lecture</Tab>
           <Tab>Odwa Nodada -ClassMate</Tab>
           <Tab>Victor Turinayo -ClassMate</Tab>
           <Tab>Liam Horne -ClassMate</Tab>
-          <Tab>Zoe Engels -ClassMate</Tab>
+          <Tab>Lelethu Ndidi -ClassMate</Tab>
 
         </Tabs>
 

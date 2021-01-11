@@ -3,6 +3,8 @@ import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, 
 import mp3 from './image/mp3-player.JPG'
 import mp3_pic from './image/mp3-project-icon.png'
 import inventory from './image/inventory system.png'
+import inventory_2 from './image/inventory-management-system.png'
+
 
 
 class Projects extends Component {
@@ -28,7 +30,7 @@ class Projects extends Component {
             <CardActions border>
               <a href="https://github.com/developerVictorNkuna"alt="_blank"><Button colored>GitHub</Button></a>
               <a  href="https://github.com/developerVictorNkuna/simpleaudi-app-with-pygame" target="_blank"><Button colored>MP3</Button></a>
-              < a href="https://github.com/developerVictorNkuna/simpleaudi-app-with-pygame" target="_blank"><img src={inventory} alt="mp3" target="_blank" style={{height:'250px'}} /></a>
+              < a href="https://github.com/developerVictorNkuna/simpleaudi-app-with-pygame" target="_blank"><img src={mp3} alt="mp3" target="_blank" style={{height:'250px'}} /></a>
               
               
               <a><Button colored> Music Player </Button></a>
@@ -52,9 +54,9 @@ class Projects extends Component {
 
             <CardActions border>
               <a href="https://github.com/developerVictorNkuna"alt="_blank"><Button colored>GitHub</Button></a>
-              <Button colored>Inventory System</Button>
-              <a  href="https://github.com/developerVictorNkuna/simpleaudi-app-with-pygame" target="_blank"><Button colored>MP3</Button></a>
-              <a href=""><Button colored>Inventory System</Button><img src={mp3} alt="mp3" target="_blank" style={{height:'250px'}} /></a>
+              <Button colored>Inventory</Button>
+              <a  href="https://github.com/developerVictorNkuna/simpleaudi-app-with-pygame" target="_blank"><Button colored></Button></a>
+              <a href=""><Button colored>Ticket-Inventory-System</Button><img src={inventory_2} alt="mp3" target="_blank" style={{height:'250px'}} /></a>
 
             </CardActions>
 
@@ -70,13 +72,12 @@ class Projects extends Component {
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
             <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #3</CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
             </CardText>
 
             <CardActions border>
               <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
+              <Button colored></Button>
+              <Button colored></Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
