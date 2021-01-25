@@ -24,7 +24,7 @@ class Testimonials extends Component {
               
               
              <h1 className="godwin"> “Victor is a pleasure to work with and has a potential to contribute positively to the organisation through his communication prowess.
-               Godwin Head of Curriculum and Learning”...Mr Godwin Life Choice Lecture</h1>
+               Godwin Head of Curriculum and Learning”...Godwin-Head of Curriculum /h1>
 
             </CardText>
 
